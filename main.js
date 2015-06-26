@@ -4,11 +4,11 @@ var module = angular.module("sampleApp", ['ngRoute']);
         function($routeProvider) {
             $routeProvider.
                 when('/route1', {
-                    templateUrl: 'templates/template1.html',
+                    templateUrl: '/template1.html',
                     controller: 'RouteController1'
                 }).
                 when('/route2', {
-                    templateUrl: 'templates/template2.html',
+                    templateUrl: '/template2.html',
                     controller: 'RouteController2'
                 }).
                 otherwise({
