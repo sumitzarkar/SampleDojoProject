@@ -1,5 +1,5 @@
+//Create New Module
 var module = angular.module("sampleApp", ['ngRoute']);
-
     module.config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
